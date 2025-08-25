@@ -1,35 +1,51 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-mx">
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
     <link rel="stylesheet" href="style.css">
-    <title>Cesar Benitez</title>
+
 </head>
 
 <body>
-
-    <head></head>
+    <header class="header">
+        <nav class="header__menu">
+            <a class="header__menu__link" href="index.html">Home</a>
+            <a class="header__menu__link" href="about.html">Sobre mí</a>
+        </nav>
+    </header>
     <main class="presentacion">
-        <section class="texto">
-            <h1>Eleve tu negocio digital a otro nivel <strong class="textoDestacado">con un Front-end de
-                    calidad!</strong>
+        <section class="presentacion__contenido">
+            <h1 class="presentacion__contenido__titulo">
+                Eleve tu negocio digital a otro nivel
+                <strong class="titulo-destaque">con un Front-end de calidad!
+                </strong>
             </h1>
-            <p>¡Hola! Soy Cesar Benitez, desarrolladora Front-end con especialización en React, HTML y CSS. Ayudo a
-                pequeños
-                negocios y diseñadores a llevar a cabo buenas ideas. ¿Hablamos?</p>
-            <div class="buttonsPresentacion">
-                <h2 class="presentacion_enlaces">Accede a mis redes:</h2>
-                <a href="https://www.linkedin.com/in/cesar-benitezt/">
-                    <img src="assets/linkedin.png" alt="LinkedIn icono"> Linkedin</a>
-                <a href="https://github.com/cesar0987"><img src="assets/github.png" alt="GitHub icono">GitHub</a>
-            </div>
-        </section>
-        <img src="/assets/Profile.jpeg" alt="Foto de Perfil de Cesar Benitez">
-    </main>
+            <p class="presentacion__contenido__texto">¡Hola! Soy Cesar Benitez, desarrollador Front-end con
+                especialización en React, HTML y CSS. Ayudo a pequeños
+                negocios y diseñadores a llevar a cabo buenas ideas.
+                ¿Hablamos?
 
-    <footer>
+            </p>
+            <div class="presentacion__enlaces">
+                <h2 class="presentacion__enlaces__subtitulo">Accede a mis redes</h2>
+                <a class="presentacion__enlaces__link" href="https://github.com/cesar0987">
+                    <img src="./assets/github.png">
+                    Github
+                </a>
+                <a class="presentacion__enlaces__link" href="https://www.linkedin.com/in/cesar-benitezt/">
+                    <img src="./assets/linkedin.png">
+                    Linkedin
+                </a>
+            </div>
+
+        </section>
+        <img class="profile" src="./assets/Profile.jpeg" alt="Foto de Cesar Benitez desarrolando un proyecto">
+    </main>
+    <footer class="footer">
         <p>Desarrollado por CFBT</p>
     </footer>
 </body>
